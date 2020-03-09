@@ -45,7 +45,7 @@ namespace AtvdFaculdade.Entities
         public override double Bonificacao(double valor)
         {
             
-            if(valor != 100)
+            if(valor != 100 || valor == 100)
             {
                 valor = 100 + 100;
             }
