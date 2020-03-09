@@ -47,7 +47,7 @@ namespace AtvdFaculdade.Entities
             
             if(valor != 100)
             {
-                valor = 100;
+                valor = 100 + 100;
             }
             return base.Bonificacao(valor);
         }

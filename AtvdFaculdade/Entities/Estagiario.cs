@@ -25,7 +25,7 @@ namespace AtvdFaculdade.Entities
         {
             if(valor != 25)
             {
-                valor = 25;
+                valor = 100 + 25;
             }
             return base.Bonificacao(valor);
         }
